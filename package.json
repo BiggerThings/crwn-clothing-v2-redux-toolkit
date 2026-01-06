@@ -9,6 +9,10 @@
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "12.1.2",
     "@testing-library/user-event": "13.5.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "dotenv": "^17.2.3",
     "firebase": "9.6.6",
     "react": "^17.0.2",
@@ -23,6 +27,7 @@
     "sass": "1.49.7",
     "stripe": "^19.3.0",
     "styled-components": "5.3.3",
+    "typescript": "^5.9.3",
     "web-vitals": "2.1.4"
   },
   "scripts": {
