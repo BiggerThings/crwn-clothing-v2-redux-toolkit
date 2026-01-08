@@ -1,8 +1,20 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-export type Category = {
-  id: string;
+export type CategoryItem = {
+  id: number;
   name: string;
+  imageUrl: string;
+  price: number;
+}
+
+export type Category = {
+  title: string;
+  imageUrl: string;
+  items: CategoryItem[];
+}
+
+export type CategoryMap = {
+  [key: string]: CategoryItem[];
 }
 
 export type CategoriesState = {
