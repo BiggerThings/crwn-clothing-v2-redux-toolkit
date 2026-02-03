@@ -18,7 +18,7 @@ export type CategoryMap = {
 }
 
 export type CategoriesState = {
-  categories: Category[];
+  readonly categories: Category[];
 }
 
 export const CATEGORIES_INITIAL_STATE: CategoriesState = {

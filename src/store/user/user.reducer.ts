@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 export type UserState = {
-  currentUser: null | {
+  readonly currentUser: null | {
     accessToken: string;
     email: string;
   };
