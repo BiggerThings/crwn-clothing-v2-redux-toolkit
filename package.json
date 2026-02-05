@@ -59,6 +59,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/redux-logger": "^3.0.13",
     "typescript": "^5.9.3"
   }
 }
