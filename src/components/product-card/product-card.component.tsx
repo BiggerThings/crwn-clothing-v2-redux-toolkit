@@ -11,9 +11,9 @@ import {
   Price,
 } from './product-card.styles';
 
-import { CartItem } from '../../store/cart/cart.reducer';
+import { CategoryItem } from '../../store/categories/category.reducer';
 
-const ProductCard = ({ product }: { product: CartItem }) => {
+const ProductCard = ({ product }: { product: CategoryItem }) => {
   const { name, price, imageUrl } = product;
   const dispatch = useDispatch();
 

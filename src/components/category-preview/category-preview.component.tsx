@@ -6,14 +6,12 @@ import {
   Preview,
 } from './category-preview.styles';
 
+import { CategoryItem } from '../../store/categories/category.reducer';
+
 type CategoryPreviewProps = {
   title: string;
-  products: {
-    id: string;
-    name: string;
-    imageUrl: string;
-    price: number;
-  }[];
+  products: CategoryItem[];
+
 };
 
 const CategoryPreview = ({ title, products }: CategoryPreviewProps) => {
